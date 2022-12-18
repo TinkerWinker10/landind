@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Портфолио</title>
+  </head>
+  <body>
+    <header class="page-header portfolio">
+      <nav class="header-nav">
+        <a href="./index.html" class="logo"
+          ><span class="logo-span">Web</span>Studio</a
+        >
+        <ul class="site-nav">
+          <li><a href="./index.html" class="site-nav">Студія</a></li>
+          <li>
+            <a href="./portfolio.html" class="site-nav" id="active"
+              >Портфоліо</a
+            >
+          </li>
+          <li><a href="" class="site-nav">Контакти</a></li>
+        </ul>
+        <ul class="site-nav contact">
+          <li class="site-nav">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="site-nav">
+            <a href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1 class="hidden">Категорії</h1>
+        <ul class="portfolio-radio">
+          <li>
+            <input
+              type="radio"
+              id="category1"
+              name="filter"
+              value="all"
+              checked
+            />
+            <label for="category1">Все</label>
+          </li>
+          <li>
+            <input type="radio" id="category2" name="filter" value="website" />
+            <label for="category2">Веб-сайти</label>
+          </li>
+          <li>
+            <input type="radio" id="category3" name="filter" value="apps" />
+            <label for="category3">Додатки</label>
+          </li>
+          <li>
+            <input type="radio" id="category4" name="filter" value="design" />
+            <label for="category4">Дизайн</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="category5"
+              name="filter"
+              value="marketing"
+            />
+            <label for="category5">Маркетинг</label>
+          </li>
+        </ul>
+
+        <div class="portfolio-inner">
+          <ul class="portfolio-grid">
+            <li class="portfolio-item">
+              <a href="#">
+                <img
+                  src="images/tehnokryak.jpg"
+                  alt="Технокряк"
+                  class="portfolio-img"
+                />
+                <h3 class="portfolio-subtitle">Технокряк</h3>
+                <p class="portfolio-article">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#">
+                <img
+                  src="images/poster.jpg"
+                  alt="Постер New Orlean vs Golden Star"
+                  class="portfolio-img"
+                />
+                <h3 class="portfolio-subtitle">
+                  Постер New Orlean vs Golden Star
+                </h3>
+                <p class="portfolio-article">Дизайн</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#">
+                <img
+                  src="images/seafood.jpg"
+                  alt="Ресторан Seafood"
+                  class="portfolio-img"
+                />
+                <h3 class="portfolio-subtitle">Ресторан Seafood</h3>
+                <p class="portfolio-article">Додаток</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#">
+                <img
+                  src="images/prime.jpg"
+                  alt="Проєкт Prime"
+                  class="portfolio-img"
+                />
+                <h3 class="portfolio-subtitle">Проєкт Prime</h3>
+                <p class="portfolio-article">Маркетинг</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#">
+                <img
+                  src="images/boxes.jpg"
+                  alt="Проєкт Boxes"
+                  class="portfolio-img"
+                />
+                <h3 class="portfolio-subtitle">Проєкт Boxes</h3>
+                <p class="portfolio-article">Додаток</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#">
+                <img
+                  src="images/inspiration_has_no_borders.jpg"
+                  alt="Inspiration has no Borders"
+                  class="portfolio-img"
+                />
+                <h3 class="portfolio-subtitle">Inspiration has no Borders</h3>
+                <p class="portfolio-article">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#">
+                <img
+                  src="images/limited_edition.jpg"
+                  alt="Видання Limited Edition"
+                  class="portfolio-img"
+                />
+                <h3 class="portfolio-subtitle">Видання Limited Edition</h3>
+                <p class="portfolio-article">Дизайн</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#">
+                <img
+                  src="images/lab.jpg"
+                  alt="Проект LAB"
+                  class="portfolio-img"
+                />
+                <h3 class="portfolio-subtitle">Проект LAB</h3>
+                <p class="portfolio-article">Маркетинг</p>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#">
+                <img
+                  src="images/growing_business.jpg"
+                  alt="Growing Business"
+                  class="portfolio-img"
+                />
+                <h3 class="portfolio-subtitle">Growing Business</h3>
+                <p class="portfolio-article">Додаток</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="footer-inner">
+        <a href="./index.html" class="footer-logo"><span>Web</span>Studio</a>
+        <address>
+          <ul class="footer-list">
+            <li>
+              <a
+                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-map"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@example.com" class="footer-link"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380991111111" class="footer-link"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+  </body>
+</html>
